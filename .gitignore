@@ -43,3 +43,6 @@ node_modules
 
 # Vendor files
 vendor
+
+# Dist
+dist
