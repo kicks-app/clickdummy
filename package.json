@@ -20,6 +20,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mincerrc": "0.0.6",
     "grunt-sync": "^0.5.1",
-    "less": "^2.5.3"
+    "less": "^2.5.3",
+    "node-sass": "^3.7.0"
   }
 }

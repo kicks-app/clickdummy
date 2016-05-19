@@ -1,5 +1,5 @@
 // CSS Entry point
-@import "bootstrap/less/bootstrap";
+@import "bootstrap/scss/bootstrap";
 @import "_variables";
 @import "header";
 @import "footer";
@@ -16,14 +16,11 @@ body {
   -ms-flex-direction: column;
   
   > .site-content {
-    margin-top: @navbar-height;
+    padding-top: 5rem;
+    width: 100%;
     flex: 1 0 auto;
     -webkit-flex: 1 0 auto;
     -ms-flex: 1 0 auto;
-  }
-  
-  > .site-footer {
-    
   }
   
 }
