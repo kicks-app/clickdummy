@@ -84,10 +84,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-mincerrc');
   grunt.loadNpmTasks('grunt-assemble');
 
-  grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('test', ['jshint']);
   
-  grunt.registerTask('build', ['jshint', 'clean:build', 'sync:build', 'mincerrc:build', 'assemble:build']);
+  grunt.registerTask('build', ['clean:build', 'sync:build', 'mincerrc:build', 'assemble:build']);
   
-  grunt.registerTask('serve', ['connect:build', 'watch:build']);
+  grunt.registerTask('serve', ['build', 'connect:build', 'watch:build']);
 
 };
