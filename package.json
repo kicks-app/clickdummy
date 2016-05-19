@@ -1,5 +1,5 @@
 {
-  "name": "kicks-app-clickdummy",
+  "name": "kicks-app-assemble",
   "version": "0.0.1",
   "description": "Static Web Prototype",
   "main": "index.js",
@@ -13,6 +13,7 @@
     "grunt-contrib-jshint": "^0.12.0"
   },
   "devDependencies": {
+    "grunt-assemble": "^0.4.0",
     "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-connect": "^0.11.2",
     "grunt-contrib-copy": "^0.8.2",
