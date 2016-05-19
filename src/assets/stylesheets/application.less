@@ -1,7 +1,29 @@
 // CSS Entry point
 @import "bootstrap/less/bootstrap";
 @import "_variables";
+@import "header";
+@import "footer";
 
 body {
-  padding-top: @navbar-height;
+  position: relative;
+  height: auto;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  min-height: 100vh;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  
+  > .site-content {
+    margin-top: @navbar-height;
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+  }
+  
+  > .site-footer {
+    
+  }
+  
 }
